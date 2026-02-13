@@ -3,7 +3,7 @@
 Publication-ready diagrams and reproducible figure generation for **Optically Detected Magnetic Resonance (ODMR)**
 in Nitrogen-Vacancy (NV) centers in diamond.
 
-**Repository:** <https://github.com/hafsaghannaj/OMDR-principle>
+**Repository:** <https://github.com/hafsaghannaj/ODMR-principle>
 
 ---
 
@@ -103,7 +103,7 @@ Machine-readable metadata: [`CITATION.cff`](CITATION.cff)
   author  = {Ghannaj, Hafsa},
   title   = {ODMR Principle Visualized},
   year    = {2026},
-  url     = {https://github.com/hafsaghannaj/OMDR-principle}
+  url     = {https://github.com/hafsaghannaj/ODMR-principle}
 }
 ```
 
