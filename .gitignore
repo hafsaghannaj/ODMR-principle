@@ -9,3 +9,9 @@ __pycache__/
 env/
 venv/
 .venv/
+*.egg-info/
+dist/
+build/
+.idea/
+*.swp
+*.swo
