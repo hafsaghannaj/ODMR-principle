@@ -18,6 +18,10 @@ in Nitrogen-Vacancy (NV) centers in diamond.
 
 ## Figure Gallery (generated programmatically)
 
+> Figures are numbered to match a companion manuscript. Figures 1, 2, 4, and 5 are
+> TikZ-based diagrams in `diagrams/source/tikz/`; figures 3 and 6 are Python-generated.
+> Physical parameters and model details: [`PARAMETERS.md`](PARAMETERS.md).
+
 ### Fig 3 — Zeeman Splitting
 
 Illustrative ODMR dips under B = 0, 3, 5 mT (Lorentzian dip model).
@@ -85,7 +89,8 @@ brew install poppler
 ## Reproducibility
 
 This repository provides a **Dockerfile** that pins the OS, TeX Live, Python, and all dependencies
-to maximize reproducibility. The Docker build sets `SOURCE_DATE_EPOCH` for deterministic PDF timestamps.
+to maximize reproducibility. Within the Docker environment, outputs are deterministic given identical
+inputs. The build sets `SOURCE_DATE_EPOCH` to stabilize PDF metadata (timestamps, producer strings).
 
 For local (non-Docker) runs, outputs are deterministic within a pinned dependency environment but may
 vary across different OS/font stacks.
