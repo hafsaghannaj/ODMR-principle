@@ -1,6 +1,7 @@
 # ODMR Principle Visualized
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Figures/Docs: CC BY 4.0](https://img.shields.io/badge/Figures%2FDocs-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE_CODE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 
 Publication-ready diagrams and reproducible figure-generation workflows for Optically Detected Magnetic Resonance (ODMR) in nitrogen-vacancy (NV) centers in diamond.
@@ -32,6 +33,7 @@ Programmatically generated figures:
 │   ├── generate_figures.py
 │   └── requirements.txt
 ├── CITATION.cff
+├── LICENSE_CODE
 └── README.md
 ```
 
@@ -105,4 +107,5 @@ See `CONTRIBUTING.md` for contribution guidelines.
 
 ## License
 
-This project is licensed under CC BY 4.0. See `LICENSE`.
+- Figures and documentation are licensed under CC BY 4.0 (`LICENSE`).
+- Source code is licensed under MIT (`LICENSE_CODE`).
